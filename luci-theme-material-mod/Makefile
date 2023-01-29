@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=Material-mod Theme
+LUCI_TITLE:=luci-theme-material-mod
 LUCI_DEPENDS:=
 
 include ../../luci.mk
