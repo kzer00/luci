@@ -3,7 +3,7 @@
 if [ "$PKG_UPGRADE" != 1 ]; then
 	uci get luci.themes.material-mod >/dev/null 2>&1 || \
 	uci batch <<-EOF
-		set luci.themes.materialmod=/luci-static/material-mod
+		set luci.themes.MaterialMod=/luci-static/material-mod
 		set luci.main.mediaurlbase=/luci-static/material-mod
 		commit luci
 	EOF
